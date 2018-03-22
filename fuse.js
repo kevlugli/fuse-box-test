@@ -17,8 +17,8 @@ Sparky.task('config', () => {
     sourceMaps: false,
     target: 'browser',
     output: 'out/$name.js',
-    allowSyntheticDefaultImports: true,
-    //polyfillNonStandardDefaultUsage: true,
+    //allowSyntheticDefaultImports: true,
+    polyfillNonStandardDefaultUsage: true,
     useJsNext : ["semantic-ui-react"],
     autoImport: {
       "Promise": "bluebird"
