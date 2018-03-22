@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Button} from 'semantic-ui-react
+import {Button} from 'semantic-ui-react'
 
-export default class ApplicationComponent extends React.Component<{},{}> {
-    render() {
-        return <div>
+const element = <div>
+            Testing with button...
             <Button></Button>
         </div>
-    }
-}
 
-ReactDOM.render(ApplicationComponent, document.getElementById('app'))
+ReactDOM.render(element, document.getElementById('app'))
+
